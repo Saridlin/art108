@@ -10,5 +10,13 @@
   <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti velit vitae nobis 
     porro illum eos, est error, impedit quam ab atque facilis, possimus animi sapiente perferendis 
     aliquid consectetur voluptates accusantium.</p>
+
+    <ul>
+      {% for post in site.posts %}
+        <li>
+          <a href="{{ post.url }}">{{ post.title }}</a>
+        </li>
+      {% endfor %}
+    </ul>
 </body>
 </html>
