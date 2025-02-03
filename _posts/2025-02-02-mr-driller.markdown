@@ -2,7 +2,7 @@
 layout: post
 title:  "Mr. Driller - a short review"
 date:   2025-02-02
-categories: blog game internet-arcade
+categories: blog
 ---
 
 ![Image]({{ site.baseurl }}/images/mr-driller.png)
